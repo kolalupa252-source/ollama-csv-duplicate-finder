@@ -1,0 +1,14 @@
+{
+  "name": "ollama-csv-duplicate-finder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "demo": "node src/cli.js examples/leads.csv",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "csv-parse": "7.0.3"
+  }
+}

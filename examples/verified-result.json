@@ -1,0 +1,24 @@
+{
+  "model": "qwen3:1.7b",
+  "tool": "find_duplicate_emails",
+  "finding": "duplicates_found",
+  "rowsScanned": 6,
+  "missingEmails": 1,
+  "duplicates": [
+    {
+      "email": "ada@example.com",
+      "lines": [
+        2,
+        4
+      ]
+    },
+    {
+      "email": "noah@example.com",
+      "lines": [
+        3,
+        6
+      ]
+    }
+  ],
+  "duplicateRows": 2
+}
